@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+
+    <remove-node path="/api/package[@name='com.wowza.gocoder.sdk.android']" />
+    <remove-node path="/api/package[@name='com.wowza.gocoder.sdk.api']" />
+    <remove-node path="/api/package[@name='com.wowza.gocoder.sdk.api.android']" />
+    <remove-node path="/api/package[@name='com.wowza.gocoder.sdk.api.android.graphics']" />
+    <remove-node path="/api/package[@name='com.wowza.gocoder.sdk.api.broadcast']" />
+    <remove-node path="/api/package[@name='com.wowza.gocoder.sdk.api.codec']" />
+
+    <remove-node path="/api/package[@name='com.wowza.gocoder.sdk.api.data']" />
+    <remove-node path="/api/package[@name='com.wowza.gocoder.sdk.api.devices']" />
+    <remove-node path="/api/package[@name='com.wowza.gocoder.sdk.api.encoder']" />
+    <remove-node path="/api/package[@name='com.wowza.gocoder.sdk.api.errors']" />
+    <remove-node path="/api/package[@name='com.wowza.gocoder.sdk.api.geometry']" />
+    <remove-node path="/api/package[@name='com.wowza.gocoder.sdk.api.gles']" />
+    <remove-node path="/api/package[@name='com.wowza.gocoder.sdk.api.graphics']" />
+    <remove-node path="/api/package[@name='com.wowza.gocoder.sdk.api.h264']" />
+    <remove-node path="/api/package[@name='com.wowza.gocoder.sdk.api.logging']" />
+    <remove-node path="/api/package[@name='com.wowza.gocoder.sdk.api.monitor']" />
+    <remove-node path="/api/package[@name='com.wowza.gocoder.sdk.api.mp4']" />
+    <remove-node path="/api/package[@name='com.wowza.gocoder.sdk.api.render']" />
+    <remove-node path="/api/package[@name='com.wowza.gocoder.sdk.api.sink']" />
+    <remove-node path="/api/package[@name='com.wowza.gocoder.sdk.api.status']" />
+    <remove-node path="/api/package[@name='com.wowza.gocoder.sdk.support']" />
+    <remove-node path="/api/package[@name='com.wowza.gocoder.sdk.support.a']" />
+    <remove-node path="/api/package[@name='com.wowza.gocoder.sdk.support.a.a.a']" />
+    <remove-node path="/api/package[@name='com.wowza.gocoder.sdk.support.a.a.a.a']" />
+    <remove-node path="/api/package[@name='com.wowza.gocoder.sdk.support.a.b']" />
+    <remove-node path="/api/package[@name='com.wowza.gocoder.sdk.support.a.c']" />
+    <remove-node path="/api/package[@name='com.wowza.gocoder.sdk.support.b']" />
+    <remove-node path="/api/package[@name='com.wowza.gocoder.sdk.support.c']" />
+    <remove-node path="/api/package[@name='com.wowza.gocoder.sdk.support.d']" />
+    <remove-node path="/api/package[@name='com.wowza.gocoder.sdk.support.e']" />
+    <remove-node path="/api/package[@name='com.wowza.gocoder.sdk.support.f']" />
+    <remove-node path="/api/package[@name='com.wowza.gocoder.sdk.support.g']" />
+    <remove-node path="/api/package[@name='com.wowza.gocoder.sdk.support.licensing']" />
+    <remove-node path="/api/package[@name='com.wowza.gocoder.sdk.support.wmstransport.a']" />
+    <remove-node path="/api/package[@name='com.wowza.gocoder.sdk.support.wmstransport.wms.a.a']" />
+    <remove-node path="/api/package[@name='com.wowza.gocoder.sdk.support.wmstransport.wms.a.b']" />
+    <remove-node path="/api/package[@name='com.wowza.gocoder.sdk.support.wmstransport.wms.a.c']" />
+    <remove-node path="/api/package[@name='com.wowza.gocoder.sdk.support.wmstransport.wms.a.d']" />
+    <remove-node path="/api/package[@name='com.wowza.gocoder.sdk.support.wmstransport.wms.a.e']" />
+    <remove-node path="/api/package[@name='com.wowza.gocoder.sdk.support.wmstransport.wms.amf']" />
+    <remove-node path="/api/package[@name='com.wowza.gocoder.sdk.support.wmstransport.wms.b.a']" />
+    <remove-node path="/api/package[@name='com.wowza.gocoder.sdk.support.wmstransport.wms.c']" />
+    <remove-node path="/api/package[@name='com.wowza.gocoder.sdk.support.wmstransport.wms.d']" />
+    <remove-node path="/api/package[@name='com.wowza.gocoder.sdk.support.wse']" />
+    <remove-node path="/api/package[@name='com.wowza.gocoder.sdk.support.wse.jni.wmstransport']" />
+    
+</metadata>

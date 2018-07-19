@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<package>
+	<metadata>
+		<id>x3factr.Platform.Droid.Wowza</id>
+		<version>1.5.0.$versionSuffix$</version>
+		<authors>3factr, Wowza</authors>
+		<owners>3factr, Wowza</owners>
+		<description>Xamarin.Android bindings for Wowza GoCoder</description>
+	</metadata>
+	<files>
+		<file src="Droid/bin/$configuration$/x3factr.Platform.Droid.Wowza.dll" target="lib/MonoAndroid81" />
+		<file src="Droid/bin/$configuration$/x3factr.Platform.Droid.Wowza.xml" target="lib/MonoAndroid810" />
+	</files>
+</package>
