@@ -16,4 +16,32 @@
   - To change the type of the return value, use "return" as the parameter name.
   - The parameter names will be p0, p1, ... unless you provide JavaDoc file in the project.
   -->
+    
+    <mapping jni-class="com/wowza/gocoder/sdk/api/status/WOWZStatus">
+        <method jni-name="getState" parameter="return" clr-enum-type="Com.Wowza.Gocoder.Sdk.Api.Status.State" />
+    </mapping>
+    
+    <mapping jni-class="com/wowza/gocoder/sdk/api/broadcast/WOWZBroadcast">
+        <method jni-name="getLogLevel" parameter="return" clr-enum-type="Com.Wowza.Gocoder.Sdk.Api.Logging.LogLevel" />
+        <method jni-name="setLogLevel" parameter="logLevel" clr-enum-type="Com.Wowza.Gocoder.Sdk.Api.Logging.LogLevel" />
+    </mapping>
+    
+    <mapping jni-class="com/wowza/gocoder/sdk/api/configuration/WOWZStreamConfig">
+        <method jni-name="getLogLevel" parameter="return" clr-enum-type="Com.Wowza.Gocoder.Sdk.Api.Logging.LogLevel" />
+        <method jni-name="setLogLevel" parameter="logLevel" clr-enum-type="Com.Wowza.Gocoder.Sdk.Api.Logging.LogLevel" />
+    </mapping>
+
+    <mapping jni-class="com/wowza/gocoder/sdk/api/logging/WOWZLog">
+        <method jni-name="isValidLogLevel" parameter="logLevel" clr-enum-type="Com.Wowza.Gocoder.Sdk.Api.Logging.LogLevel" />
+    </mapping>
+    
+    <mapping jni-class="com/wowza/gocoder/sdk/api/player/WOWZPlayerView">
+        <method jni-name="getLogLevel" parameter="return" clr-enum-type="Com.Wowza.Gocoder.Sdk.Api.Logging.LogLevel" />
+        <method jni-name="setLogLevel" parameter="logLevel" clr-enum-type="Com.Wowza.Gocoder.Sdk.Api.Logging.LogLevel" />
+    </mapping>
+    
+    <mapping jni-class="com/wowza/gocoder/sdk/api/h264/WOWZProfileLevel">
+        <method jni-name="getLevel" parameter="return" clr-enum-type="Com.Wowza.Gocoder.Sdk.Api.H264.ProfileLevel" />
+    </mapping>
+    
 </enum-method-mappings>

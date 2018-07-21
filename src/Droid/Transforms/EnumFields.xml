@@ -16,4 +16,49 @@
   - An optional "bitfield" attribute marks the enum type with [Flags].
   - For Java interfaces, use "jni-interface" attribute instead of "jni-class" attribute.
   -->
+    
+    <mapping jni-class="com/wowza/gocoder/sdk/api/status/WOWZState" clr-enum-type="Com.Wowza.Gocoder.Sdk.Api.Status.State">
+        <field jni-name="COMPLETE" clr-name="Complete" value="7" />
+        <field jni-name="ERROR" clr-name="Error" value="10" />
+        <field jni-name="IDLE" clr-name="Idle" value="0" />
+        <field jni-name="PAUSED" clr-name="Paused" value="5" />
+        <field jni-name="PREBUFFERING_ENDED" clr-name="PrebufferingEnded" value="13" />
+        <field jni-name="PREBUFFERING_STARTED" clr-name="PrebufferingStarted" value="12" />
+        <field jni-name="READY" clr-name="Ready" value="2" />
+        <field jni-name="RUNNING" clr-name="Running" value="3" />
+        <field jni-name="SHUTDOWN" clr-name="Shutdown" value="9" />
+        <field jni-name="STARTING" clr-name="Starting" value="1" />
+        <field jni-name="STOPPED" clr-name="Stopped" value="6" />
+        <field jni-name="STOPPING" clr-name="Stopping" value="4" />
+        <field jni-name="UNKNOWN" clr-name="Unknown" value="11" />
+    </mapping>
+    
+    <mapping jni-class="com/wowza/gocoder/sdk/api/logging/WOWZLog" clr-enum-type="Com.Wowza.Gocoder.Sdk.Api.Logging.LogLevel">
+        <field jni-name="LOG_LEVEL_DEBUG" clr-name="Debug" value="2" />
+        <field jni-name="LOG_LEVEL_ERROR" clr-name="Error" value="5" />
+        <field jni-name="LOG_LEVEL_INFO" clr-name="Info" value="3" />
+        <field jni-name="LOG_LEVEL_VERBOSE" clr-name="Verbose" value="1" />
+        <field jni-name="LOG_LEVEL_WARN" clr-name="Warn" value="4" />
+    </mapping>
+    
+    <mapping jni-class="com/wowza/gocoder/sdk/api/h264/WOWZProfileLevel" clr-enum-type="Com.Wowza.Gocoder.Sdk.Api.H264.ProfileLevel">
+        <field jni-name="PROFILE_LEVEL_AUTO" clr-name="Auto" value="0" />
+        <field jni-name="PROFILE_LEVEL1" clr-name="Level1" value="1" />
+        <field jni-name="PROFILE_LEVEL11" clr-name="Level11" value="3" />
+        <field jni-name="PROFILE_LEVEL12" clr-name="Level12" value="4" />
+        <field jni-name="PROFILE_LEVEL13" clr-name="Level13" value="5" />
+        <field jni-name="PROFILE_LEVEL1B" clr-name="Level1B" value="2" />
+        <field jni-name="PROFILE_LEVEL2" clr-name="Level2" value="6" />
+        <field jni-name="PROFILE_LEVEL21" clr-name="Level21" value="7" />
+        <field jni-name="PROFILE_LEVEL22" clr-name="Level22" value="8" />
+        <field jni-name="PROFILE_LEVEL3" clr-name="Level3" value="9" />
+        <field jni-name="PROFILE_LEVEL31" clr-name="Level31" value="10" />
+        <field jni-name="PROFILE_LEVEL32" clr-name="Level32" value="11" />
+        <field jni-name="PROFILE_LEVEL4" clr-name="Level4" value="12" />
+        <field jni-name="PROFILE_LEVEL41" clr-name="Level41" value="13" />
+        <field jni-name="PROFILE_LEVEL42" clr-name="Level42" value="14" />
+        <field jni-name="PROFILE_LEVEL5" clr-name="Level5" value="15" />
+        <field jni-name="PROFILE_LEVEL51" clr-name="Level51" value="16" />
+    </mapping>
+    
 </enum-field-mappings>
