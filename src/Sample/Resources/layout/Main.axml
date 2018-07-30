@@ -1,4 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
-    <com.wowza.gocoder.sdk.api.player.WOWZPlayerView android:layout_width="match_parent" android:layout_height="match_parent" android:id="@+id/stream_player" />
+    <Button android:layout_height="wrap_content" android:layout_width="match_parent" android:text="Play/Stop" android:id="@+id/playButton" />
+    <com.wowza.gocoder.sdk.api.player.WOWZPlayerView android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1" android:id="@+id/stream_player" />
 </LinearLayout>

@@ -9,7 +9,7 @@ using Com.Wowza.Gocoder.Sdk.Api.Status;
 
 namespace Sample
 {
-    [Activity(Label = "Wowza Sample", MainLauncher = true)]
+    [Activity(Label = "Wowza Sample", MainLauncher = true, HardwareAccelerated = true)]
     public class MainActivity : Activity
     {
         protected override void OnCreate(Bundle savedInstanceState)
@@ -21,23 +21,29 @@ namespace Sample
 	        SetContentView(Resource.Layout.Main);
 
 	        var playerView = FindViewById<WOWZPlayerView>(Resource.Id.stream_player);
-	        
-	        var playerConfig = new WOWZPlayerConfig
-	        {
-		        HostAddress = "",
-		        PortNumber = 1234,
-		        ApplicationName = "",
-		        StreamName = "",
-		        Username = "",
-		        Password = "",
-		        AudioEnabled = true,
-		        VideoEnabled = false
-	        };
-	        playerConfig.SetIsPlayback(true);
-	        
-	        var wowzaCallback = new WowzaCallback();
+	        var playButton = FindViewById<Button>(Resource.Id.playButton);
 
-	        playerView.Play(playerConfig, wowzaCallback);
+	        playButton.Click += (sender, args) =>
+	        {
+		        var playerConfig = new WOWZPlayerConfig
+		        {
+			        HostAddress = "edge.cdn.wowza.com",
+			        PortNumber = 1935,
+			        ApplicationName = "live",
+			        StreamName = "0P0p2VThFWktwdzZFL0N4OXB0ZDl581b",
+			        AudioEnabled = true,
+			        VideoEnabled = false
+		        };
+		        var error = playerConfig.ValidateForPlayback();
+		        if (error != null)
+		        {
+			        throw new Exception("Config error: " + error.ErrorDescription);
+		        }
+	        
+		        var wowzaCallback = new WowzaCallback();
+
+		        playerView.Play(playerConfig, wowzaCallback);
+	        };
         }
     }
 
