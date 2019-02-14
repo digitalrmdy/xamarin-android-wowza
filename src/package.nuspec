@@ -2,7 +2,7 @@
 <package>
 	<metadata>
 		<id>x3factr.Platform.Droid.Wowza</id>
-		<version>1.5.0.$versionSuffix$</version>
+		<version>1.7.0.$versionSuffix$</version>
 		<authors>3factr, Wowza</authors>
 		<owners>3factr, Wowza</owners>
 		<description>Xamarin.Android bindings for Wowza GoCoder</description>
