@@ -8,7 +8,7 @@
 		<description>Xamarin.Android bindings for Wowza GoCoder</description>
 	</metadata>
 	<files>
-		<file src="Rmdy.Android.Wowza/bin/$configuration$/Rmdy.Anroid.Wowza.dll" target="lib/MonoAndroid81" />
-		<file src="Rmdy.Android.Wowza/bin/$configuration$/Rmdy.Anroid.Wowza.xml" target="lib/MonoAndroid810" />
+		<file src="Rmdy.Android.Wowza/bin/$configuration$/Rmdy.Android.Wowza.dll" target="lib/MonoAndroid81" />
+		<file src="Rmdy.Android.Wowza/bin/$configuration$/Rmdy.Android.Wowza.xml" target="lib/MonoAndroid810" />
 	</files>
 </package>
