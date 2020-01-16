@@ -6,10 +6,10 @@
     <ProjectGuid>{B6C9B02D-BB06-4BA5-A479-B7DC406F69DC}</ProjectGuid>
     <ProjectTypeGuids>{10368E6C-D01B-4462-8E8B-01FC667A7035};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
-    <RootNamespace>x3factr.Platform.Droid.Wowza</RootNamespace>
-    <AssemblyName>x3factr.Platform.Droid.Wowza</AssemblyName>
+    <RootNamespace>Rmdy.Android.Wowza</RootNamespace>
+    <AssemblyName>Rmdy.Android.Wowza</AssemblyName>
     <DocumentationFile>bin\$(Configuration)\$(AssemblyName).xml</DocumentationFile>
-    <TargetFrameworkVersion>v8.1</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v9.0</TargetFrameworkVersion>
     <MonoAndroidResourcePrefix>Resources</MonoAndroidResourcePrefix>
     <MonoAndroidAssetsPrefix>Assets</MonoAndroidAssetsPrefix>
     <AndroidClassParser>class-parse</AndroidClassParser>

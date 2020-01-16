@@ -5,11 +5,11 @@
 //------------------------------------------------------------------------------
 using System.Reflection;
 
-[assembly: AssemblyTitle("x3factr.Platform.Droid.Wowza")]
-[assembly: AssemblyCompany("3factr")]
-[assembly: AssemblyProduct("x3factr.Platform.Droid.Wowza")]
+[assembly: AssemblyTitle("Rmdy.Android.Wowza")]
+[assembly: AssemblyCompany("Rmdy")]
+[assembly: AssemblyProduct("Rmdy.Android.Wowza")]
 [assembly: AssemblyVersion("1.5.0.1")]
 [assembly: AssemblyFileVersion("1.5.0.1")]
 [assembly: AssemblyInformationalVersion("1.5.0.1-beta")]
-[assembly: AssemblyCopyright("Copyright (c) 2018, 3factr")]
+[assembly: AssemblyCopyright("Copyright (c) 2020, Rmdy")]
 
