@@ -1,18 +1,25 @@
 <?xml version="1.0"?>
 <package>
-	<metadata>
-		<id>Rmdy.Android.Wowza</id>
-		<version>1.7.0</version>
-		<authors>RMDY, Wowza</authors>
-		<owners>RMDY, Wowza</owners>
-		<description>Xamarin.Android bindings for Wowza GoCoder</description>
-		<dependencies>
-			<group targetFramework="MonoAndroid81">
-			</group>
-		</dependencies>
-	</metadata>
-	<files>
-		<file src="Rmdy.Android.Wowza/bin/Release/Rmdy.Android.Wowza.dll" target="lib/MonoAndroid81" />
-		<file src="Rmdy.Android.Wowza/bin/Release/Rmdy.Android.Wowza.xml" target="lib/MonoAndroid81" />
-	</files>
+    <metadata>
+        <id>Rmdy.Android.Wowza</id>
+        <version>1.7.0</version>
+        <authors>RMDY, Wowza</authors>
+        <owners>RMDY, Wowza</owners>
+        <license type="expression">MIT</license>
+        <projectUrl>https://github.com/digitalrmdy/xamarin-android-wowza</projectUrl>
+        <icon>images\Wowza.png</icon>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <developmentDependency>false</developmentDependency>
+        <description>Xamarin.Android bindings for Wowza GoCoder</description>
+        <copyright>RMDY, Wowza</copyright>
+        <dependencies>
+            <group targetFramework="MonoAndroid81">
+            </group>
+        </dependencies>
+    </metadata>
+    <files>
+        <file src="Rmdy.Android.Wowza/bin/Release/Rmdy.Android.Wowza.dll" target="lib/MonoAndroid81" />
+        <file src="Rmdy.Android.Wowza/bin/Release/Rmdy.Android.Wowza.xml" target="lib/MonoAndroid81" />
+        <file src="../Wowza.png" target="images\" />
+    </files>
 </package>
