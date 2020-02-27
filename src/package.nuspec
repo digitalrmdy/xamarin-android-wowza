@@ -2,13 +2,17 @@
 <package>
 	<metadata>
 		<id>Rmdy.Android.Wowza</id>
-		<version>1.7.0.$versionSuffix$</version>
+		<version>1.7.0</version>
 		<authors>RMDY, Wowza</authors>
 		<owners>RMDY, Wowza</owners>
 		<description>Xamarin.Android bindings for Wowza GoCoder</description>
+		<dependencies>
+			<group targetFramework="MonoAndroid81">
+			</group>
+		</dependencies>
 	</metadata>
 	<files>
-		<file src="Rmdy.Android.Wowza/bin/$configuration$/Rmdy.Android.Wowza.dll" target="lib/MonoAndroid81" />
-		<file src="Rmdy.Android.Wowza/bin/$configuration$/Rmdy.Android.Wowza.xml" target="lib/MonoAndroid810" />
+		<file src="Rmdy.Android.Wowza/bin/Release/Rmdy.Android.Wowza.dll" target="lib/MonoAndroid81" />
+		<file src="Rmdy.Android.Wowza/bin/Release/Rmdy.Android.Wowza.xml" target="lib/MonoAndroid81" />
 	</files>
 </package>
