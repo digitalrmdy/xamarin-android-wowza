@@ -66,7 +66,10 @@ Task("Publish")
         NuGetPush(pkgPath, pushSettings);
     });
     
-Task("Default")
+Task("NoPublish")
     .IsDependentOn("Pack");
+    
+Task("Default")
+    .IsDependentOn("Publish");
     
 RunTarget(target);
