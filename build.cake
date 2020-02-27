@@ -4,8 +4,8 @@
 #addin nuget:?package=Cake.Git
 #addin "Cake.FileHelpers"
 
-var projectName = "x3factr.Platform.Droid.Wowza";
-var company = "3factr";
+var projectName = "Rmdy.Android.Wowza";
+var company = "RMDY";
 
 var target = Argument("target", EnvironmentVariable("BUILD_TARGET") ?? "Default");
 

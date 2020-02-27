@@ -8,7 +8,7 @@
     <OutputType>Library</OutputType>
     <RootNamespace>Sample</RootNamespace>
     <AssemblyName>Sample</AssemblyName>
-    <TargetFrameworkVersion>v8.1</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v9.0</TargetFrameworkVersion>
     <AndroidApplication>True</AndroidApplication>
     <AndroidResgenFile>Resources\Resource.designer.cs</AndroidResgenFile>
     <AndroidResgenClass>Resource</AndroidResgenClass>
@@ -27,7 +27,7 @@
     <AndroidLinkMode>None</AndroidLinkMode>
     <JavaMaximumHeapSize>
     </JavaMaximumHeapSize>
-    <AndroidSupportedAbis>arm64-v8a;armeabi;armeabi-v7a;x86</AndroidSupportedAbis>
+    <AndroidSupportedAbis>armeabi-v7a;x86;arm64-v8a</AndroidSupportedAbis>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -69,9 +69,9 @@
     <Folder Include="Resources\drawable\" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Droid\x3factr.Platform.Droid.Wowza.csproj">
-      <Project>{B6C9B02D-BB06-4BA5-A479-B7DC406F69DC}</Project>
-      <Name>x3factr.Platform.Droid.Wowza</Name>
+    <ProjectReference Include="..\Rmdy.Android.Wowza\Rmdy.Android.Wowza.csproj">
+      <Project>{b6c9b02d-bb06-4ba5-a479-b7dc406f69dc}</Project>
+      <Name>Rmdy.Android.Wowza</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
