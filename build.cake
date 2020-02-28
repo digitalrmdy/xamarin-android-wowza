@@ -36,12 +36,7 @@ Task("Pack")
     {
         Information($"NuGet version suffix: {versionSuffix}");
         
-        var packSettings = new NuGetPackSettings();
-        if(isStableVersion)
-        {
-            packSettings.Suffix = versionSuffix;
-        }
-        
+        var packSettings = new NuGetPackSettings{ Suffix = versionSuffix };
         NuGetPack(nuspecPath, packSettings);
     });
     
